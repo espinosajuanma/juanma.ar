@@ -1,0 +1,17 @@
+---
+import { getLangFromUrl, useTranslations, getUrlForLanguage, getLanguages } from '../i18n/utils';
+import { languages } from '../i18n/ui';
+
+const logo = { src: '/img/espinosajuanma-logo.svg' };
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+<header>
+    <div>
+        <a href={`/${lang}`}><img src={logo.src} class="marca" alt="Espinosa Juan Manuel"></a>
+        <p><span class="pad dark bg-green">{t('header.editor')}</span> <span class="green">/</span> {t('header.developer')}</p>
+    </div>
+    <nav>
+        {getLanguages().filter(l => l !== lang).map(l => <a class="navlink" href={getUrlForLanguage(Astro.url, l)}>{languages[l].label}</a>)}
+    </nav>
+</header>

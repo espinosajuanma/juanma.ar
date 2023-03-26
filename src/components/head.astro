@@ -1,0 +1,14 @@
+---
+import { getLanguages } from '../i18n/utils'
+import styles from '../styles/global.css?inline'
+
+const favicon = { src: '/img/favicon.png' };
+const { title } = Astro.props;
+---
+{getLanguages().map(lang => <link rel="alternate" hreflang={lang} href={'https://www.juanma.ar/'+lang} />)}
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/svg+xml" href={favicon.src} />
+<style is:inline set:html={styles}></style>
+<title>{title}</title>

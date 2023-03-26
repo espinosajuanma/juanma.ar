@@ -1,0 +1,31 @@
+---
+import Head from '../components/head.astro'
+import Footer from '../components/footer.astro'
+import Header from '../components/header.astro'
+import { getLangFromUrl } from '../i18n/utils';
+
+const { frontmatter } = Astro.props;
+const language = getLangFromUrl(Astro.url);
+---
+<!DOCTYPE html>
+<html lang={language}>
+
+<head>
+    <Head title={frontmatter.title}/>
+</head>
+
+<body>
+    <div class="container">
+        <Header />
+
+        <main>
+            <slot />
+        </main>
+
+        <Footer />
+
+        <!-- {tracker} -->
+    </div>
+</body>
+
+</html>

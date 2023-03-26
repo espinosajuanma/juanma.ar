@@ -1,0 +1,41 @@
+---
+import Head from '/src/components/head.astro'
+import Button from '/src/components/button.astro'
+import Header from '/src/components/header.min.astro'
+import { socials } from '/src/enums/socials';
+
+const { frontmatter } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <Head title={frontmatter.title}/>
+</head>
+
+<body>
+    <div class="container">
+        <Header />
+
+        <main>
+            <h2>Website</h2>
+            <section class="buttons row">
+                <Button special={true} text='Español' icon='globe-americas' link='https://www.juanma.ar/es'/>
+                <Button special={true} text='English' icon='globe-americas' link='https://www.juanma.ar/en'/>
+            </section>
+
+            <h2>Redes</h2>
+            <section class="buttons">
+                {socials.map(s => <a href={s.link}><i class:list={['bi', 'bi-'+s.icon]}></i> {s.label}</a>)}
+            </section>
+        </main>
+
+        <footer style="text-align: right;">
+            <hr>
+            <p>Juan Manuel Espinosa</p>
+        </footer>
+
+    </div>
+
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>

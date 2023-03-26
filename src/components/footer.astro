@@ -1,0 +1,9 @@
+---
+import { socials } from '../enums/socials';
+---
+<footer>
+    <hr>
+    <div class="socials">
+        {socials.map(s => <a class="nav-link link-light" href={s.link} target="_blank"><i class:list={['bi', 'bi-'+s.icon]}></i><span> {s.label}</span></a> )}
+    </div>
+</footer>
