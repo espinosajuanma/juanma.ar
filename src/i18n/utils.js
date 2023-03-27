@@ -8,8 +8,8 @@ export function getLangFromUrl(url) {
 
 export function getUrlForLanguage(url, lang) {
     const current = getLangFromUrl(url);
-    let rx = new RegExp(`/${current}`)
-    return url.pathname.replace(rx, `/${lang}`)
+    let rx = new RegExp(`/${current}/`)
+    return url.pathname.replace(rx, `/${lang}/`)
 }
 
 export function useTranslations(lang) {
