@@ -24,4 +24,9 @@ export const socials = [
         link: 'https://www.vimeo.com/espinosajuanma/',
         icon: 'vimeo'
      },
+    {
+        label: 'Email',
+        link: 'mailto:hola@juanma.ar',
+        icon: 'envelope-at-fill'
+     },
 ];
