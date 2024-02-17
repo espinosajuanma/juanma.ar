@@ -1,0 +1,8 @@
+<footer>
+    <hr>
+    <div class="socials">
+        {{ range $.Site.Data.socials }}
+            <a class="nav-link link-light" href="{{ .link }}" target="_blank"><i class="bi bi-{{ .icon }}"></i> <span>{{ .label }}</span></a>
+        {{ end }}
+    </div>
+</footer>

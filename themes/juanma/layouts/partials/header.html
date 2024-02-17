@@ -1,0 +1,16 @@
+<header>
+    <div>
+        <a href="{{ site.Home.RelPermalink }}"><img src="/img/espinosajuanma-logo.svg" class="marca" alt="{{ site.Title }}"></a>
+        <p><span class="pad dark bg-green">{{ T "profile.developer" }}</span> <span class="green">/</span> {{ T "profile.editor" }}</p>
+    </div>
+    <nav>
+        {{ $current := .Language.Lang }}</h3>
+        {{ with .AllTranslations }}
+            {{ range . }}
+            {{ $langName := or .Language.LanguageName  }}  
+            {{ if ne $current .Language.Lang }}
+                <a class="navlink" href="{{ .RelPermalink }}" hreflang="{{ .Language.Lang }}">{{ .Language.Lang }}</a>{{ end }}
+            {{ end }}
+        {{ end }}
+    </nav>
+</header>

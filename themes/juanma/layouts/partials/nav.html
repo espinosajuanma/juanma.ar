@@ -1,0 +1,6 @@
+<div>
+    <li><a href="{{ site.Home.RelPermalink }}">{{ site.Home.Title }}</a></li>
+    {{- range site.Sections }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{ end -}}
+</div>

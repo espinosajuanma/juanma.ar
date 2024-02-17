@@ -1,0 +1,8 @@
+language = 'lenguaje'
+
+[profile]
+    developer = 'desarrollador backend'
+    editor = 'artista digital'
+
+[error]
+    notFound = '404 Not Found'

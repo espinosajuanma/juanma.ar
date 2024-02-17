@@ -1,0 +1,10 @@
+{{ define "main" }}
+{{ .Content }}
+
+<section class="buttons">
+    {{ range $.Site.Data.socials }}
+    <a href="{{ .link }}"><i class="bi bi-{{ .icon }}"></i> {{ .label }}</a>
+    {{ end -}}
+</section>
+
+{{ end }}

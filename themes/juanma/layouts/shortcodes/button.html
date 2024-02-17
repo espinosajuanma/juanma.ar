@@ -1,0 +1,6 @@
+---
+let { text, icon, link, special } = Astro.props;
+let buttonClass = [];
+if (special) buttonClass = ['special'];
+---
+<a class="classHere" href="linkHere"><i class="bi bi+{iconHere}"></i>{textHere}</a>

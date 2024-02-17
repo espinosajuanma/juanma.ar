@@ -1,0 +1,13 @@
+{{ define "main" }}
+{{ .Content }}
+
+{{ with .GetPage "films" }}
+    <h2>{{ .Title }}</h2>
+    <div class="project-list">
+    {{- range .Pages.ByDate.Reverse }}
+        {{ partial "films/poster.html" . -}}
+    {{ end }}
+    </div>
+{{ end }}
+
+{{ end }}  
