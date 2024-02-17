@@ -1,6 +1,0 @@
----
-let { text, icon, link, special } = Astro.props;
-let buttonClass = [];
-if (special) buttonClass = ['special'];
----
-<a class:list={buttonClass} href={link}><i class:list={['bi', 'bi-'+icon]}></i> {text}</a>

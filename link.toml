@@ -1,0 +1,9 @@
+baseURL = 'https://link.juanma.ar/'
+languageCode = 'en'
+title = 'Juanma Espinosa'
+
+theme = 'juanma'
+
+[params]
+    author = 'Juan Manuel Espinosa'
+

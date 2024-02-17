@@ -1,0 +1,7 @@
+{{ $ratio := split .Page.Params.Ratio ":" }}
+{{ $w := float (index $ratio 0) }}
+{{ $h := float (index $ratio 1) }}
+{{ $padding := mul (div 100 $w) $h }}
+<div class="video" style="padding-top: {{ $padding }}%;"> <!-- Set style based on ratio -->
+    <iframe src="https://player.vimeo.com/video/{{ .Page.Params.VimeoId }}"  frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</div>

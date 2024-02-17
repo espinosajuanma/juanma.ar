@@ -1,0 +1,24 @@
+baseURL = 'https://www.juanma.ar/'
+languageCode = 'en'
+title = 'Juanma Espinosa'
+
+theme = 'juanma'
+
+defaultContentLanguage = 'en'
+
+[params]
+    author = 'Juan Manuel Espinosa'
+
+[languages]
+    [languages.en]
+        disabled = false
+        languageCode = 'en-US'
+        languageName = 'english'
+        contentDir = 'content/en'
+        weight = 10
+    [languages.es]
+        disabled = false
+        languageCode = 'es'
+        languageName = 'español'
+        contentDir = 'content/es'
+        weight = 20

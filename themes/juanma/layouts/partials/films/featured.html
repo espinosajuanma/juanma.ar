@@ -1,0 +1,9 @@
+{{ with .GetPage "films" }}
+    <h2>{{ .Title }}</h2>
+    {{ $pages := where .Pages "Params.Featured" true }}
+    <div class="project-list">
+    {{- range $pages.ByDate.Reverse.Limit 4 }}
+        {{ partial "films/poster.html" . -}}
+    {{ end }}
+    </div>
+{{ end }}

@@ -1,8 +1,0 @@
----
-const { title, year, poster, url } = Astro.props;
-const Poster = { src: '/img/posters/'+poster }
----
-<div class="project">
-    <a href={url+'/'}><img src={Poster.src} alt={title}></a>
-    <a href={url+'/'}><h5>{title} <span>({year})</span></h5></a>
-</div>
