@@ -4,11 +4,14 @@ title = 'Juanma Espinosa'
 
 theme = 'juanma'
 
-defaultContentLanguage = 'en'
-
 [params]
     author = 'Juan Manuel Espinosa'
 
+[taxonomies]
+
+[terms]
+
+defaultContentLanguage = 'en'
 [languages]
     [languages.en]
         disabled = false

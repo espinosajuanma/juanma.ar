@@ -1,5 +1,5 @@
-[build]
-    command = 'hugo'
+[context.production]
+    command = 'hugo && cp ./_redirects ./public/_redirects'
     publish = 'public'
 
 [build.environment]
