@@ -15,16 +15,6 @@
         "icon": "github"
     },
     {
-        "label": "Twitter",
-        "link": "https://www.twitter.com/espinosajuanma/",
-        "icon": "twitter-x"
-    },
-    {
-        "label": "Vimeo",
-        "link": "https://www.vimeo.com/espinosajuanma/",
-        "icon": "vimeo"
-    },
-    {
         "label": "Email",
         "link": "mailto:hola@juanma.ar",
         "icon": "envelope-at-fill"
