@@ -1,8 +1,13 @@
 language = 'language'
-
-[error]
-    notFound = '404 Not Found'
+more = 'more'
 
 [profile]
     developer = 'backend developer'
     editor = 'digital artist'
+
+[error]
+    notFound = '404 Not Found'
+
+[films]
+    films = 'films'
+    upcoming = 'upcoming projects'

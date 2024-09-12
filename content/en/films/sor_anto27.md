@@ -6,6 +6,7 @@ poster: 'sor_anto27.jpg'
 featured: true
 vimeoId: 391004355
 ratio: '16:9'
+soon: false
 ---
 
 <!-- breadcrumb -->

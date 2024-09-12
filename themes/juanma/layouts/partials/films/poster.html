@@ -1,4 +1,4 @@
 <div class="project">
     <a href="{{ .RelPermalink }}"><img src="/img/posters/{{ .Params.Poster }}" alt="{{ .Title }}"></a>
-    <a href="{{ .RelPermalink }}"><h5>{{ .Title }} <span>({{ .Params.Year }})</span></h5></a>
+    <a href="{{ .RelPermalink }}"><h5>{{ .Title }} {{ if not .Params.soon }}<span>({{ .Params.Year }})</span>{{ end }}</h5></a>
 </div>

@@ -6,6 +6,7 @@ poster: 'defrag-the-true.jpg'
 featured: true
 vimeoId: 369666528
 ratio: '1:1'
+soon: false
 ---
 
 # Defrag the true `(2019)`
