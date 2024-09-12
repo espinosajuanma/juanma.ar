@@ -6,6 +6,7 @@ poster: 'linhas-alternativas.jpg'
 featured: true
 vimeoId: 455107691
 ratio: '16:9'
+soon: false
 ---
 
 # Linhas Alternativas `(2020)`
