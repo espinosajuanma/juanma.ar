@@ -3,8 +3,8 @@ title: 'Warp Drive'
 year: '2024'
 date: 2024-01-01
 poster: 'warp-drive.jpg'
-featured: true
-released: false
+featured: false
+soon: true
 ---
 
 # Warp Drive `(2024)`
@@ -14,7 +14,3 @@ released: false
 > que su nave se desintegre. Pero a medida que la velocidad de la nave acelera más
 > allá de su control, la realidad se vuelve borrosa y Dust se enfrenta al
 > verdadero viaje.
-
-## Muy Pronto
-
-El proyecto se está realizando en este momento. No te lo pierdas!

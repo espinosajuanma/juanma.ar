@@ -2,8 +2,9 @@
 title: 'Inicio'
 ---
 
-> Soy un desarrollador backend y editor audiovisual, creativo e innovador con
-> una gran pasión por la _ciencia ficción_ y el _storytelling_.
-> 
-> Impulsado por el deseo de crecer, mejorar y evolucionar constantemente, creo
-> en el _aprendizaje continuo_ como estilo de vida.
+> Soy _desarrollador backend_ y _artista digital_ con más de diez años de
+> experiencia en cada campo. Apasionado por crear, construir y exporar la
+> intersección de la _tecnología_ con el _arte_ y el _storytelling_.
+>
+> Programando o creando arte digital, disfruto el proceso de traer mis ideas a
+> la realidad.

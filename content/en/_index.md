@@ -2,8 +2,10 @@
 title: 'Home'
 ---
 
-> I am a creative and innovative backend developer and audiovisual editor with a
-> great passion for _science fiction_ and _storytelling_.
+> I'm a _backend developer_ and _digital artist_ with
+> over a decade of experience in each field. Passionate about crafting,
+> building, and exploring the intersection of _technology_ with _art_ and
+> _storytelling_.
 >
-> Driven by the desire to constantly grow, improve and evolve, I believe in
-> _continuous learning_ as a way of life.
+> Whether I'm coding or creating digital art, I enjoy the
+> process of bringing my ideas to reality.
