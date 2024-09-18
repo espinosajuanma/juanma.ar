@@ -7,7 +7,7 @@ featured: false
 soon: true
 ---
 
-# Warp Drive `(2024)`
+# Warp Drive
 
 > Dust es un hábil piloto que vuela su nave a través de un peligroso campo de
 > escombros. Mientras se enfrenta a desafíos inesperados, Dust lucha para evitar
