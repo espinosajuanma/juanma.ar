@@ -7,3 +7,4 @@
 
 [context.link]
     command = 'hugo -c link --config link.toml'
+    publish = 'public'
