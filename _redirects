@@ -1,3 +1,5 @@
 /en/projects/*  /films/:splat
 /es/projects/*  /es/films/:splat
 /en/*   /:splat
+/linkedin  https://www.linkedin.com/in/espinosajuanma  301!
+/git       https://github.com/espinosajuanma    301!
